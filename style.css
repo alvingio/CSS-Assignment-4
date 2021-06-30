@@ -1,0 +1,41 @@
+@font-face {
+  src: url(fonts/Roboto-Black.ttf);
+  font-family: robot;
+}
+@font-face {
+  src: url(fonts/MeriendaOne-Regular.ttf);
+  font-family: MeriendaOne;
+}
+
+body {
+  background-color: aqua;
+  cursor: crosshair;
+  line-height: 1.6;
+  }
+
+img {
+  opacity: 1.0;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+.clear {
+  clear: both;
+  padding-top: 20px;
+}
+
+ul  {
+  list-style: square inside url("sqpurple.gif");
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: robot;
+}
+
+p {
+  font-family: MeriendaOne;
+}
